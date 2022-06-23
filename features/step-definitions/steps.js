@@ -80,8 +80,8 @@ When(/^I enter phrases$/, async () => {
         await accHge.click();
         
 
-        // const reqTyp = await $("//iframe[@height='78']");
-        // await reqTyp.waitForDisplayed();
+        const reqTyp = await $("//iframe[@height='78']");
+        await reqTyp.waitForDisplayed();
         // await browser.pause(2000);
         // await reqTyp.moveTo();
         // await browser.pause(2000);
